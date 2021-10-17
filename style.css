@@ -9,6 +9,7 @@ nav{
 position: sticky;
 border-bottom: 1px solid rgb(235, 235, 235);
     top: 0px;
+    background: white;
 }
 .header p{
     padding: 5px;
