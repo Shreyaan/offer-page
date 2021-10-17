@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+position: sticky;
+border-bottom: 1px solid rgb(235, 235, 235);
+}
+.header p{
+    padding: 5px;
+    transition: border-radius 0.5s ease ;
+}
+
+.header p:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.header{
+display: flex;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.text{
+    margin-top: 14vh;
+    margin-left: 8vw;
+    
+    /* min-width: ; */
+}
+
+.text h2{
+font-size: 40px;
+font-weight: 600;
+padding-bottom: 40px;
+border-bottom: 1px solid rgb(219, 219, 219);
+/* border-radius: px; */
+
+}
+.text h5{
+font-size: 40px;
+font-weight: 500;
+padding: 40px 0;
+padding-bottom: 20px;
+}
+
+.text p{
+font-size: 25px;
+/* font-weight: 200; */
+padding: 0 20px 0 20px ;
+}
+
+.para{
+    border-left: 2px solid black ;
+    margin: 40px 10px;
+    display: flex;
+    
+    /* flex-wrap: wrap; */
+    max-width: 700px;
+}
+
+.paraimg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+
+}
+
+.img img{
+    width: 150px;
+}
+
+.light-small-text {
+    color: rgb(197, 197, 197);
+    font-size: 12px !important; 
+    padding-left: 20px;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+
+.cta-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+.cta-call-btn{
+    color: rgb(243, 104, 104);
+    background-color: rgb(253, 230, 230);
+    border-radius: 10px;
+    border-bottom: 2px solid black;   
+    padding: 10px;
+    margin: 20px; 
+}
+
+.cta-call-btn p{
+    font-size: 23px;
+}
+
+
+.cta-call-btn:hover{
+    color: red;
+}
+.cta-learn-btn{
+    padding: 10px;
+    color: rgb(104, 160, 243);
+    background-color: rgb(230, 241, 253);
+    border-radius: 10px;
+    border-bottom: 2px solid black;   
+    margin: 20px; 
+ 
+}
+
+.cta-learn-btn p{
+    font-size: 23px;
+}
+
+.cta-learn-btn:hover{
+    color: rgb(0, 174, 255);
+}
