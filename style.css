@@ -9,7 +9,11 @@ nav{
 position: sticky;
 border-bottom: 1px solid rgb(235, 235, 235);
     top: 0px;
-    background-color: white;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.849);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
 }
 .header p{
     padding: 5px;
@@ -24,8 +28,8 @@ border-bottom: 1px solid rgb(235, 235, 235);
 .header{
 display: flex;
     padding: 5px;
-    margin: 5px 0;
-        background-color: white;
+    margin:0 0 5px 0;
+        /* background-color: rgba(255, 255, 255, 0.733); */
 }
 
 .text{
