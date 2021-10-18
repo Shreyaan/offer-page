@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+    .maincontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+    }
+    .cta-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
