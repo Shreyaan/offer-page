@@ -13,10 +13,10 @@
         text-align: center;
     }
     .cta-container {
-        /* display: flex;
+        display: flex;
         justify-content: center;
-        align-items: center; */
-        text-align: left;
+        align-items: center;
+        /* text-align: left; */
         
     }
 
