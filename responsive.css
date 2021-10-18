@@ -13,9 +13,22 @@
         text-align: center;
     }
     .cta-container {
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
+        text-align: left;
         
+    }
+
+    .cta-learn-btn{
+        /* width: fit-content; */
+    }
+
+    #title-text{
+        text-align: center;
+    }
+
+    .gallary{
+        justify-content: center;
     }
 }

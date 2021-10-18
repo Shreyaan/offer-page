@@ -82,7 +82,7 @@ nav {
 
 .light-small-text {
     color: rgb(197, 197, 197);
-    font-size: 12px !important;
+    font-size: 12px ;
     padding-left: 20px;
 }
 
@@ -91,6 +91,7 @@ main {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .cta-container {
@@ -134,3 +135,43 @@ main {
     color: rgb(0, 174, 255);
 }
 
+.cta-text {
+    color: rgb(129, 129, 129) !important;
+    font-size: 20px  !important;
+} 
+
+#title-text{
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+#trusted{
+    margin-top: 100px ;
+}
+
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    align-items: flex-start;
+
+}
+
+.gallary-img{
+    width: 300px;
+}
+
+.red{
+    color: red;
+}
+
+.remote-work-text{
+    text-align: left;
+    margin: 20px 10px;
+}
+
+.remote-work-text p{
+    font-size: 20px;
+    font-weight: 400;
+}
